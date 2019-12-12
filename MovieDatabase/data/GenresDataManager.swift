@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class GenresDataManager: NSObject {
+    static let sharedInstance = GenresDataManager()
+    var genres: Genres?
+    
+    override init() {
+        super.init()
+    }
+        
+}

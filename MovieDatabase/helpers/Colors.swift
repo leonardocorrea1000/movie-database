@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
+class Colors {
+    static let primaryColor = UIColor(hexString: "#022D2C")
+}
